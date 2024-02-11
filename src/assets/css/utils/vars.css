@@ -1,0 +1,37 @@
+:root {
+  --main-font-family: "Montserrat", "OpenSans-Regular", sans-serif;
+  --main-font-color: #555555;
+  --main-font-size:  16px;
+  --main-font-weight:  400;
+  --main-line-height:  20px;
+
+  --white: #ffffff;
+  --black: #2F3032;
+  --red: #ED604E;
+  --orange: #ed604e;
+  --blue: #26a8e2;
+  --blue-2: #3EDDFF;
+  --blue-3: #00AEEF;
+  --blue-4: #2067b0;
+  --green: #049127;
+  --yellow: #fff7e2;
+  --warning-color: #fed330;
+  --grey-dark: #818994;
+  --gray: #555555;
+  --gray-1: #bebebe;
+  --gray-2: #e2e2e2;
+  --gray-3: #c9d0d6;
+  --gray-4: #f5f6f8;
+  --gray-5: #cacfd3;
+}
+
+@media (max-width:  767px) {
+  :root {
+    --mainFont: "Montserrat", "OpenSans-Regular", sans-serif;
+    --mainFontSize:  14px;
+    --mainFontWeight:  500;
+    --mainLineHeight:  1.2;
+    --mainFontStyle: normal;
+    --mainFontColor: #2F3032;
+  }
+}

@@ -1,0 +1,15 @@
+
+@import "./utils/vars.css";
+@import "./utils/fonts.css";
+@import "./utils/reset.css";
+
+body {
+    font-family: var(--main-font-family);
+    color: var(--main-font-color);
+    font-size: var(--main-font-size);
+    font-weight: var(--main-font-weight);
+    line-height: var(--main-line-height);
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

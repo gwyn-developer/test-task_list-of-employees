@@ -1,0 +1,45 @@
+.button-regular__value {
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 5px;
+  min-width: 160px;
+  width: fit-content;
+  height: 30px;
+  line-height: 17px;
+  border-color:var(--grey-4);
+  color: var(--white);
+  background-color: var(--blue);
+  padding: 0 26px;
+  font-family: var(--main-font-family)
+}
+
+.button-regular__value:hover {
+  background-color: var(--blue-2);
+  border-color: var(--blue-2);
+}
+
+.button-regular__value:active{
+  background-color: var(--blue-3);
+  border-color: var(--blue-3);
+  outline: var(--blue-3);
+}
+
+.button-regular__value_disabled {
+  background-color: var(--gray-5);
+  border-color: var(--gray-5);
+  cursor: not-allowed;
+}
+
+.button-regular__value_disabled:hover {
+  background-color: var(--gray-5);
+  cursor: not-allowed;
+}
