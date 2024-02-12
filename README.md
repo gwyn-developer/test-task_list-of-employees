@@ -4,7 +4,7 @@ Simple vue app - list of employees with the ability to add new ones.<br/>
 Deployed with vercel.com using serverless function.
 
 ## Demo
-[https://gwyn-developer.github.io/test-task_list-of-employees/](https://test-task-list-of-employees.vercel.app/)
+[https://test-task-list-of-employees.vercel.app/](https://test-task-list-of-employees.vercel.app/)
 
 ## Launch project locally
 ```
