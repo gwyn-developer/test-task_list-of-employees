@@ -97,6 +97,7 @@
 
 .modal-view-body__form {
   margin-bottom: 20px;
+  display: flex;
 }
 
 .modal-view-body__input {
@@ -170,10 +171,6 @@
   opacity: 0.7;
 }
 
-.modal-view-body__form {
-  display: flex;
-}
-
 .modal-view-body__group-label {
   width: 100px;
   margin-right: 10px;
@@ -239,24 +236,6 @@
   resize: none;
   padding-left: 5px;
   padding-right: 5px;
-}
-
-.modal-add-dep__help-text {
-  display: inline-block;
-  transition: all 530ms;
-  color: var(--blue-1);
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 500;
-  max-width: 320px;
-  border-color: var(--white);
-  background-color: var(--white);
-  text-align: left;
-  align-items: center;
-  margin-left: 20px;
-  font-stretch: normal;
-  letter-spacing: 0.2px;
-  white-space: nowrap;
 }
 
 .modal-view-body__string {
