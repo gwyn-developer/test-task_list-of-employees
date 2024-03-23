@@ -1,6 +1,6 @@
 # test-task_list-of-employees
 
-Simple vue app - list of employees with the ability to add new ones.<br/>
+Simple vue2 app - list of employees with the ability to add new ones.<br/>
 Deployed with vercel.com using serverless function.
 
 ## Demo
